@@ -1,0 +1,39 @@
+@charset "utf-8";
+*{
+	padding: 0px;
+	margin: 0px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+.box{
+	width: 300px;
+	border: 2px solid cadetblue ;
+	border-radius: 10px;
+	margin: 20px auto;
+	padding: 20px;
+	box-shadow: 5px 5px 10px 0 lightgoldenrodyellow;
+}
+.box thead{
+	background: cadetblue;
+	color: white;
+}
+.box thead th.cursor{
+	cursor: pointer;
+}
+.box thead tr{
+	width:250px;
+	height: 30px;
+	
+}
+.box thead tr th{
+	width:100px;
+}
+.box td{
+	padding: 10px;
+}
+.box tbody{
+	text-align: center;
+}
+.box tbody tr.bg{
+	background: aquamarine;
+}
